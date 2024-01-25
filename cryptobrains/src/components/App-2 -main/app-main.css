@@ -1,0 +1,4 @@
+.app-main {
+  flex-grow: 1;
+  background: var(--Bg-Main-Bg-1, #131517);
+}

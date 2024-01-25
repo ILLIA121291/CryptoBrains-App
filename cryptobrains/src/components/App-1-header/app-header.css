@@ -1,0 +1,15 @@
+.app-header {
+  background: var(--Bg-Card-Bg-2, #1E1F25);
+
+  display: flex;
+  padding: 32px 0px;
+
+}
+
+.app-header-content-border{
+  max-width: 1590px;
+  width: 100%;
+
+  margin: 0px auto;
+  display: flex;
+}
