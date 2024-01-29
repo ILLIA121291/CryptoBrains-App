@@ -1,0 +1,32 @@
+.header_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  /* transform: translateY(6px);
+  border: 1px solid #000; */
+}
+
+.header_menu_link {
+  margin-right: 40px;
+  transition: color .3s;
+}
+
+.header_menu_link:last-child {
+  margin-right: 0px;
+}
+
+.header_menu_link:hover {
+  color: aquamarine;
+} 
+
+@media (max-width: 800px) {
+  .header_menu {
+    flex-direction: column;
+
+    margin: 15px 0px;
+  }
+  .header_menu_link {
+    margin-right: 0px;
+  }
+}

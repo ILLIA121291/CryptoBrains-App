@@ -1,0 +1,31 @@
+.contaner_for_filter_buttons {
+  padding: 10px 10px;
+  background: rgba(39, 42, 52, 0.4);
+  padding: 20px 20px 10px 20px;
+
+  border: 1px solid #000;
+  margin-bottom: 15px;
+}
+
+.btn-general {
+  padding: 2px 4px;
+  background: transparent;
+
+  color: var(--grey-paragraph-6, #adb3bf);
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 160% */
+}
+
+.btn-general:not(:last-child) {
+  margin-right: 30px;
+}
+
+.activ_btn {
+  color: var(--Primary-9, #1B70F1);
+  border-bottom: 1px solid #1B70F1;
+}
+
+

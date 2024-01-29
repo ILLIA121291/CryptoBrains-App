@@ -1,0 +1,10 @@
+.header_logo_mobile {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .header_logo_mobile {
+    display: inline-block;
+    height: 45px;
+  }
+}

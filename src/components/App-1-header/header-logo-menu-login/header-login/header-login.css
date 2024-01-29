@@ -1,0 +1,32 @@
+.header_login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.log_btn {
+
+  padding: 13px 26px;
+  border-radius: 4px;
+  color: var(--White, #fff);
+
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 156%;
+  transition: transform .3s;
+}
+
+.log_btn:hover {
+  transform: scale(1.1);
+}
+
+.log_in {
+  margin-right: 10px;
+  background: var(--Bg-Main-Bg-1, #131517);
+}
+
+.sing_up {
+  background: var(--Primary-9, #1B70F1);
+}
