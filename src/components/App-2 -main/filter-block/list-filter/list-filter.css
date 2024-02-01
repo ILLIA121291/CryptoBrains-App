@@ -1,15 +1,16 @@
 .coins_table {
+  table-layout: auto;
   width: 100%;
+  border-collapse: separate;
+  border-spacing: 0px 0px;
+
   padding: 30px 20px;
   color: rgb(241, 240, 240);
-  border: 1px solid #f53d0a;
 }
 
+.coins_table_head > th {
+  padding-bottom: 20px;
 
-.coins_table_head {
-  border: 1px solid #e5f50a;
-  
-  
   color: var(--grey-paragraph-8, #808a9a);
   font-family: 'Source Sans Pro';
   font-size: 16px;
@@ -18,7 +19,15 @@
   line-height: 150%;
 }
 
+.coins_table_body > tr > td {
+  padding: 10px 0px;
+}
 
-.coins_table_body {
-  border: 1px solid #4c1beb;
+.coins_table_body > tr > td:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.coins_table_body > tr > td:nth-child(3) {
+  color: rgb(46, 218, 23);
 }

@@ -10,7 +10,15 @@ const income = [
   { coinIcon: '/coins.svg', coinName: 'Bitcoin / BTC', invested: 28247315.05, retur: 28254247.99, qty: 1.00, avgBuyingPrice: 22698117.99, currentBuyingPrice: 25821456.51, action: 'Buy' },
   { coinIcon: '/coins.svg', coinName: 'Bitcoin / BTC', invested: 58252488.17, retur: 12215830.59, qty: 14.00, avgBuyingPrice: 98947190.03, currentBuyingPrice: 69702108.02, action: 'Buy' },
   { coinIcon: '/coins.svg', coinName: 'Bitcoin / BTC', invested: 28247357.98, retur: 66215472.01, qty: 2.00, avgBuyingPrice: 30481124.11, currentBuyingPrice: 93572584.49, action: 'Sale' },
-  { coinIcon: '/coins.svg', coinName: 'Bitcoin / BTC', invested: 15698731.11, retur: 85212566.22, qty: 3.00, avgBuyingPrice: 15357175.35, currentBuyingPrice: 91214028.35, action: 'Sale' },
+  { coinIcon: '/coins.svg', coinName: 'Bitcoin / BTC', invested: 15998731.11, retur: 85212566.22, qty: 86.00, avgBuyingPrice: 15357175.35, currentBuyingPrice: 91214028.35, action: 'Sale' },
+  { coinIcon: '/coins.svg', coinName: 'Bitcoin / BTC', invested: 28273482.05, retur: 45754247.99, qty: 0.00, avgBuyingPrice: 22698117.99, currentBuyingPrice: 25821456.51, action: 'Buy' },
+  { coinIcon: '/coins.svg', coinName: 'Bitcoin / BTC', invested: 58255688.17, retur: 93215830.59, qty: 153.00, avgBuyingPrice: 98947190.03, currentBuyingPrice: 69702108.02, action: 'Buy' },
+  { coinIcon: '/coins.svg', coinName: 'Bitcoin / BTC', invested: 28276757.98, retur: 94015472.01, qty: 21.00, avgBuyingPrice: 30481124.11, currentBuyingPrice: 93572584.49, action: 'Sale' },
+  { coinIcon: '/coins.svg', coinName: 'Bitcoin / BTC', invested: 56976731.11, retur: 92112566.22, qty: 38.00, avgBuyingPrice: 15357175.35, currentBuyingPrice: 91214028.35, action: 'Sale' },
+  { coinIcon: '/coins.svg', coinName: 'Bitcoin / BTC', invested: 28345315.05, retur: 94254247.99, qty: 11.00, avgBuyingPrice: 22698117.99, currentBuyingPrice: 25821456.51, action: 'Buy' },
+  { coinIcon: '/coins.svg', coinName: 'Bitcoin / BTC', invested: 58345488.17, retur: 12586630.59, qty: 19.00, avgBuyingPrice: 98947190.03, currentBuyingPrice: 69702108.02, action: 'Buy' },
+  { coinIcon: '/coins.svg', coinName: 'Bitcoin / BTC', invested: 23282357.98, retur: 54621572.01, qty: 4.00, avgBuyingPrice: 30481124.11, currentBuyingPrice: 93572584.49, action: 'Sale' },
+  { coinIcon: '/coins.svg', coinName: 'Bitcoin / BTC', invested: 15623731.11, retur: 89222566.22, qty: 72.00, avgBuyingPrice: 15357175.35, currentBuyingPrice: 91214028.35, action: 'Sale' },
 ]
 
 const incomeTransform = income.map((value) => {
@@ -35,7 +43,6 @@ const incomeTransform = income.map((value) => {
  return value
 })
 
-console.log(incomeTransform)
 
 
 class FilterBlock extends Component {
@@ -59,7 +66,7 @@ class FilterBlock extends Component {
       case 'buy':
         return data.filter(value => value.action === 'Buy');
       case 'qty':
-        return data.filter(value => value.qty > 2)
+        return data.filter(value => value.qty > 10)
       default:
         return data;
     }

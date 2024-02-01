@@ -9,15 +9,15 @@ function ListFilter({ data }) {
 
   return (
     <table className="coins_table">
-      <thead className='coins_table_head'>
-        <tr>
-          <td className='a'>Coin Name</td>
-          <td>Invested (INR)</td>
-          <td>Return (INR)</td>
-          <td>Qty.</td>
-          <td>Avg. Buying Price</td>
-          <td>Current Buying Price</td>
-          <td>Action</td>
+      <thead >
+        <tr className='coins_table_head'>
+          <th className='a'>Coin Name</th>
+          <th>Invested (INR)</th>
+          <th>Return (INR)</th>
+          <th>Qty.</th>
+          <th>Avg. Buying Price</th>
+          <th>Current Buying Price</th>
+          <th>Action</th>
         </tr>
       </thead>
       <tbody className='coins_table_body'>{element}</tbody>

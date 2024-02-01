@@ -6,7 +6,7 @@ const PanelFilter = (props) => {
     {name: 'all' , label:'All' },
     {name: 'sale' , label:'Sale' },
     {name: 'buy' , label:'Buy' },
-    {name: 'qty', label: 'Qty > 2'},
+    {name: 'qty', label: 'Qty > 10'},
   ]
 
   const buttons = buttonData.map(({name, label}) => {

@@ -1,7 +1,8 @@
 .header-logo {
-
-
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 7px 25px 7px 0px;
+
+  border-right: 1px solid #837c7c;
 }

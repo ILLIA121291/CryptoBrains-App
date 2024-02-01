@@ -1,4 +1,4 @@
 .app-footer {
-  height: 100px;
   background: var(--Bg-Card-Bg-2, #1E1F25);
+  min-height: 100px;
 }

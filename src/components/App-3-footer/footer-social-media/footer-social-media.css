@@ -1,0 +1,31 @@
+.app-footer-social-media {
+  max-width: 1590px;
+  margin: 100px auto 50px;
+  padding: 0 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-footer-social-media-community {
+  display: flex;
+  align-items: center;
+}
+
+.app-footer-social-media-community-text {
+  color: #fff;
+  margin-right: 20px;
+}
+
+.app-footer-social-media-community-links > a:not(:last-child) {
+  margin-right: 20px;
+}
+
+.app-footer-social-media-community-links > a > img {
+  transition: transform 0.3s;
+}
+
+.app-footer-social-media-community-links > a > img:hover {
+  transform: scale(1.3);
+}
