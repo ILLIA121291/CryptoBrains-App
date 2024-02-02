@@ -1,0 +1,38 @@
+.app-footer-copyright {
+  max-width: 1590px;
+  margin: 100px auto 50px;
+  padding: 0px 30px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-footer-copyright-block-copyright {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.app-footer-copyright-block-copyright > p {
+  margin: 0px;
+}
+
+.app-footer-copyright-block-copyright > span {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+
+  margin: 0px 20px;
+}
+
+.app-footer-copyright-block-copyright > a {
+  transition: color .3s;
+}
+
+.app-footer-copyright-block-copyright > a:hover{
+  color: #1B70F1;
+}
+
+

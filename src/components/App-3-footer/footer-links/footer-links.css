@@ -3,5 +3,42 @@
   margin: 0px auto;
   padding: 50px 30px;
 
-  border: 1px solid #f1ebebb1;
+  border-top: 1px solid #f1ebeb69;
+  border-bottom: 1px solid #f1ebeb69;
+}
+
+.app-footer-links-main-ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-footer-links-main-ul-li {
+  width: 140px;
+}
+
+.app-footer-links-main-ul-li-p {
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.app-footer-links-main-ul-links-ul {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 20px;
+  padding-left: 0px;
+
+  color: #adb3bf;
+}
+
+.app-footer-links-main-ul-links-ul > li:not(:first-child) {
+  margin-top: 15px;
+}
+
+.app-footer-links-main-ul-links-ul > li {
+  transition: color 0.3s;
+}
+
+.app-footer-links-main-ul-links-ul > li:hover {
+  color: #1b70f1;
 }

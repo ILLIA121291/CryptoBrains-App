@@ -17,7 +17,7 @@
 }
 
 .header_menu_link:hover {
-  color: aquamarine;
+  color: #1B70F1;
 } 
 
 @media (max-width: 800px) {
